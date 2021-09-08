@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio - pagina de proyectos</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <meta name="descripcion" content="pagina de proyecto, echa un vistazo a la lista de proyectos que he realizado.">
+    <meta name="keywords" content="proyectos realizados, servicios, ideas, lista de trabajos">
+</head>
+
+<body>
+
+    <!--Este es mi header-->
+    <header>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <img src="../img/Perfilx.jpg" class="header_imagen rounded mx-auto d-block py-2" alt="seo perfil desarrollo web" style="width: 250px;">
+                    <h1 style="font-size: 25px;" class="header_titulo h2 py-2" style="text-align: center;">Matias Ignacio Paredes Marquez</h1>
+                    <h2 class="header_descripcion" style="text-align: center; font-size: 15px; font-weight: normal;"><em>Hola, soy estudiante y aprendo desarrollo front-end en coderhouse!</em></h2>
+                <br>
+                </div>
+            </div>
+        </div>
+
+        <!--Este es mi nav-->
+        <div class="container-fluid">
+            <div class="row">
+               <nav class="col-lg-12 text-center">
+                    <a href="../index.html" type="button" class="nav_boton_home btn btn-primary text-center misBotones">Home</a>
+                    <a href="../pages/portafolio.html" type="button" class="nav_boton_portafolio btn btn-primary text-center misBotones">Portafolio</a>
+                    <a href="../pages/contacto.html" type="button" class="nav_boton_contacto btn btn-primary text-center misBotones">Contacto</a>
+               </nav> 
+            </div>
+        </div>
+    </header>
+
+    <!--El contenido de mi pagina main -> sections-->
+   <main>
+       <section>
+           <div class="container py-2">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <!--El contenido de mi portafolio-->
+                        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="../img/cp1.jpg" class="section_imagen_uno_carousel d-block w-100" alt="primera-imagen" 
+                                    width="650px" height="450px">
+                                </div>
+
+                                <div class="carousel-item">
+                                    <img src="../img/cp2.jpg" class="section_imagen_dos_carousel d-block w-100" alt="segunda-imagen" 
+                                    width="650px" height="450px">
+                                </div>
+                                
+                                <div class="carousel-item">
+                                    <img src="../img/cp3.jpg" class="section_imagen_tres_carousel d-block w-100" alt="tercera-imagen" 
+                                    width="650px" height="450px">
+                                </div>
+                            </div>
+
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                          </div>
+                    </div>
+                </div>
+           </div>
+       </section>
+
+       <section>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="py-2">
+                        <div class="card" style="width: 20rem; margin: auto;">
+                            <div class="card-body">
+                                <h5 class="section_titulo card-title text-center">Proyecto constructora</h5>
+                                <p class="section_descripcion card-text text-center">
+                                    Servicios: <br>
+                                    Solicitar construcciones <br> <br>
+
+                                    <strong>
+                                        Tecnologias y lenguajes aplicados <br>
+                                    </strong>HTML CSS JS Y BOOTSTRAP 5
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="py-2">
+                        <div class="card" style="width: 20rem; margin: auto;">
+                            <div class="card-body">
+                                <h5 class="section_titulo card-title text-center">Proyecto ropa de moda</h5>
+                                <p class="section_descripcion card-text text-center">
+                                    Servicios: <br>
+                                    Solicitar diseñador o comprar<br> <br>
+
+                                    <strong>
+                                        Tecnologias y lenguajes aplicados <br>
+                                    </strong>HTML CSS JS Y BOOTSTRAP 5
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+       </section>
+   </main>
+
+   <br>
+    <!--Este se mi footer-->
+    <footer class="py-2" style="background-color: #33b8c2;">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 text-center" style="margin-top: 10px;">
+                    <h1 style="font-size: 25px;" class="footer_titulo">© 2021 Copyright:</h1>
+                    <h2 style="font-size: 15px;" class="footer_descrpcion">Matias Ignacio Website</h2>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script 
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous">
+    </script>
+</body>
+</html>

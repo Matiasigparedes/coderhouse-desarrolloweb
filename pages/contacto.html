@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio - pagina de contacto</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <meta name="descripcion" content="formulario de contacto, contactame y desarrolla tu idea.">
+    <meta name="keywords" content="formulario, contacto, trabajo, sitio web, desarrollo web">
+</head>
+
+<body>
+
+    <!--Este es mi header-->
+    <header>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <img src="../img/Perfilx.jpg" class="header_imagen rounded mx-auto d-block py-2" alt="seo perfil desarrollo web" style="width: 250px;">
+                    <h1 style="font-size: 25px;" class="header_titulo h2 py-2" style="text-align: center;">Matias Ignacio Paredes Marquez</h1>
+                    <h2 class="header_descripcion" style="text-align: center; font-size: 15px; font-weight: normal;"><em>Hola, soy estudiante y aprendo desarrollo front-end en coderhouse!</em></h2>
+                <br>
+                </div>
+            </div>
+        </div>
+
+        <!--Este es mi nav-->
+        <div class="container-fluid">
+            <div class="row">
+               <nav class="col-lg-12 text-center">
+                    <a href="../index.html" type="button" class="nav_boton_home btn btn-primary text-center misBotones">Home</a>
+                    <a href="../pages/portafolio.html" type="button" class="nav_boton_portafolio btn btn-primary text-center misBotones">Portafolio</a>
+                    <a href="../pages/contacto.html" type="button" class="nav_boton_contacto btn btn-primary text-center misBotones">Contacto</a>
+               </nav> 
+            </div>
+        </div>
+    </header>
+
+    <!--Aqui ira mi form con bootstrap 5-->
+    <main>
+        <section class="py-5">
+            <div class="container" style="border: 3px solid rgb(63, 61, 61); padding-top: 10px; width: 450px;">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <div class="mb-3">
+                            <label for="formGroupExampleInput" class="section_nombre_proyecto form-label">¿Cual es tu nombre?</label>
+                            <input type="text" class="form-control text-center" id="formGroupExampleInput" placeholder="Tu nombre...">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="formGroupExampleInput2" class="section_idea_proyecto form-label">¿Que tipo de proyecto tienes en mente?</label>
+                            <input type="text" class="form-control text-center" id="formGroupExampleInput2" placeholder="El tipo de proyecto...">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="formGroupExampleInput2" class="section_descripcion_proyecto form-label">Describe tu proyecto:</label>
+                            <input type="text" class="form-control text-center" id="formGroupExampleInput2" placeholder="Descripcion del proyecto...">
+                            <br>
+                            <button class="section_boton_enviar_formulario btn btn-primary" type="submit">Enviar formulario!</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--ESTE SECTION ES CREADO CON FLEXBOX-->  
+        <section class="flex-container">
+            <div>
+                <h3 class="section_titulo">Recuerda</h3>
+                <p class="section_descripcion">Visita mi portafolio y checa mis proyectos</p>
+            </div>
+
+            <div>
+                <h3 class="section_titulo">Recuerda</h3>
+                <p class="section_descripcion">Dejar tu mensaje a traves del formulario, gracias!</p>
+            </div>
+        </section>
+    </main>
+
+    <!--Este se mi footer-->
+    <footer class="py-2" style="background-color: #33b8c2;">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 text-center" style="margin-top: 10px;">
+                    <h1 style="font-size: 25px;" class="footer_titulo">© 2021 Copyright:</h1>
+                    <h2 style="font-size: 15px;" class="footer_descrpcion">Matias Ignacio Website</h2>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

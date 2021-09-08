@@ -1,0 +1,42 @@
+$red_Color: red;
+$blue_Color: blue;
+$red_Background: red;
+$blue_Background: blue;
+
+header {
+    @if $red_Color == red {
+        .header_p_sass{
+            background-color: $red_Background;
+            font-weight: bold;
+        }
+     } @else if $red_Color == blue {
+         .header_p_sass{
+             background-color: $blue_Background;
+             font-weight: normal;
+         }
+    }
+}
+
+$sizes: 15px, 45px, 50px;
+
+@each $size in $sizes {
+    .nav_titulo_sass#{$size}{
+        font-size: $size;
+        height: $size;
+        width: $size;
+    }
+}
+
+$i: 5;
+
+@while $i > 0 {
+    .item-#{$i}{
+        width: 100px * 3;
+    }
+}
+
+@mixin footer_titulo {
+    font-weight: bolder;
+    };
+
+@include footer_titulo();

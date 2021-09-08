@@ -1,0 +1,11 @@
+$colorBackground: darkslategrey;
+$colorBorde: rgb(65, 109, 109);
+
+.misBotones{
+    background-color: darkslategrey;
+    border: $colorBorde;
+}
+
+.misBotones:hover{
+    background-color: $colorBackground;
+}

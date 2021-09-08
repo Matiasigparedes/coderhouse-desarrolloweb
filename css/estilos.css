@@ -1,0 +1,32 @@
+
+body {
+  background: linear-gradient(#C0C0AA, #1CEFFF); }
+
+.header_h2_sass {
+  font-weight: bolder; }
+
+.misBotones {
+  background-color: darkslategrey;
+  border: #416d6d; }
+
+.misBotones:hover {
+  background-color: darkslategrey; }
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  background-color: darkgreen;
+  border: 1px solid #2e2c2c;
+  text-align: center; }
+
+.flex-container div {
+  background-color: cadetblue;
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  border: 1px solid black;
+  padding-top: 10px; }
+
+.header_p_sass {
+  color: red;
+  font-weight: normal; }
